@@ -20,7 +20,7 @@ blockquote::after {
 	content: '"';
 }
 
-a{
+a {
 	color: darkred;
 	text-decoration: none;
 }
