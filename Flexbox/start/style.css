@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open sans', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+nav {
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+}
+
+.container-logo {
+    margin: 20px 20px 5px 20px;
+}
+
+a {
+    color: #2b2b2b;
+    padding: 15px 20px;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #2b2bb2;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+#avatar-img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 10px;;
+}
+
+p {
+    font-size: 0.9rem;
+}
